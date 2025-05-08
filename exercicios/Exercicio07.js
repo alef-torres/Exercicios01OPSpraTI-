@@ -9,6 +9,7 @@
 // Carros de luxo
 // - Até 200 Km percorridos: R$ 0,30 por Km
 // - Acima de 200 Km percorridos: R$ 0,25 por Km
+
 const prompt = require('prompt-sync')();
 function calcularDias(tipoCar, qtdDays) {
   if (tipoCar == "lux") return qtdDays * 150;
