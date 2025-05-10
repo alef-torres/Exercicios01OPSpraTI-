@@ -29,3 +29,5 @@ console.log(`O somatório entre todos os valores; ${somaGeral}`);
 console.log(`Qual foi o menor valor digitado; ${menorValor}`);
 console.log(`A média entre todos os valores; ${(media = somaGeral / contadorMedia).toFixed(2)}`);
 console.log(`Quantos valores são pares; ${contadorPares}`);
+
+
